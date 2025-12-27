@@ -1,0 +1,169 @@
+# Backend .gitignore for AquaSens Project
+
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package manager lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Python Virtual Environment & Dependencies
+venv/
+ENV/
+env/
+.venv/
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Environment Variables
+.env
+.env.production
+.env.development
+.env.test
+.env.staging
+*.env.backup
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# Operating System Files
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+
+# IDE & Editors
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+# Test Coverage
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+.eggs/
+
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+
+# Model Files
+# api_server/ml_server/model/*.joblib
+
+!api_server/ml_server/model/.gitkeep
+
+
+# Study & Research Files
+study/dataset/*.csv
+study/notebook/.ipynb_checkpoints/
+study/notebook/*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# Security & Sensitive Data
+*.pem
+*.key
+*.cert
+*.crt
+secrets/
+.secret
+
+
+# Docker
+.dockerignore
+
+
+# Miscellaneous
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tsbuildinfo
+.npm
+.yarn-integrity
