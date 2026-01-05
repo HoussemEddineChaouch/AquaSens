@@ -201,6 +201,8 @@ aquasens/
 │       │   └── irrigation_prediction.csv
 │       ├── notebook/
 │       │   └── AquaSens - Smart Irrigation Prediction - Final Version.ipynb
+│       ├── presentaion/
+│       │   └── AquaSens_ Smart Irrigation Prediction System.pptx
 │       ├── reports/
 │       │   └── AquaSens_IA_Powered_Irrigation_Report - Houssem Eddine Chaouch 4GL.pdf
 │       └── screenshots/
